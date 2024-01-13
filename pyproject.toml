@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "traceback-cycle"
+version = "1.0.0"
+description = "Illustration of python traceback cycle"
+authors = ["Sleptsov Denis <hurrdurrrderp@gmail.com>"]
+license = "WTFPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

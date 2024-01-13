@@ -3,8 +3,8 @@ import asyncio
 from weakref import WeakSet
 import gc
 
-from py_sketches.traceback_cycle.user import User
-from py_sketches.traceback_cycle.gc_check import exception_reference_cycle_watcher
+from traceback_cycle.user import User
+from traceback_cycle.gc_check import exception_reference_cycle_watcher
 
 
 USERS = WeakSet()
